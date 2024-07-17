@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scripts.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>𝐓𝐚𝐬𝐤 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭  <i class="fa-solid fa-list-check " style="color: #000000;"></i></h1>
+       <div class="links">
+        <h6 style="font-size: 0.7em; color: rgb(0, 0, 0);"> <i class="fa-solid fa-inbox" style="color: #f7f7f7;"></i> apoorvadeepsingh7@gmail.com</h6>
+        <h6><a href="https://www.linkedin.com/in/apoorva-deep-singh-3b2734244/" style="text-decoration: none; color: #000000; font-size: 1em;" ><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>  Linkedin</a></h6>
+       </div>
+       
+       
+        <div class="task-input">
+          
+            <input type="text" id="task-name" placeholder="Task name">
+            <select id="task-priority">
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+            </select>
+            <input type="date" id="task-deadline">
+            <input type="text" id="task-category" placeholder="Category">
+           
+            <button id="add-task">Add Task</button>
+
+        </div>
+        <div id="task-list" class="task-list"></div>
+    </div>
+    <script src="scripts.js"></script>
+    
+</body>
+</html>

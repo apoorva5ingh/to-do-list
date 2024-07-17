@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c5b4b4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #cf97ed;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.links{
+    padding: 0%;
+    display: contents;
+    font-size: large;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.task-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+
+.task-input input, .task-input select, .task-input button {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.task-input button {
+    background-color: #42a5f5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.task-input button:hover {
+    background-color: #1e88e5;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e2e2e2;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.task p {
+    margin: 0;
+}
+
+.task span {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 2px 8px;
+    border-radius: 3px;
+}
+
+.priority-high { 
+    background: #ff6b6b; 
+    color: #fff; 
+}
+
+.priority-medium { 
+    background: #ffb74d; 
+    color: #fff; 
+}
+
+.priority-low { 
+    background: #81c784; 
+    color: #fff; 
+}
+
+.label { 
+    background: #9e9e9e; 
+    color: #fff; 
+}
+
+.deadline { 
+    font-size: 1em; 
+    color: #616161; 
+}
+
+.category {
+    font-size: 0.8em;
+    background: #17a6ed;
+    color: #fff;
+    padding: 3px 7px;
+    border-radius: 3px;
+}
+
+.complete {
+    cursor: pointer;
+    text-decoration: line-through;
+    color: #888888fb;
+   
+}
+
+.delete-task {
+    background: #0cf400;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.delete-task:hover {
+    background: #fc0400;
+}
